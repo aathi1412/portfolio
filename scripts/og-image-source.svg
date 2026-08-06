@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B0E14"/>
+
+  <!-- subtle grid dots, echoing the "engineering" texture without being loud -->
+  <g opacity="0.25">
+    <circle cx="60" cy="60" r="1.5" fill="#636D85"/>
+    <circle cx="1140" cy="60" r="1.5" fill="#636D85"/>
+    <circle cx="60" cy="570" r="1.5" fill="#636D85"/>
+    <circle cx="1140" cy="570" r="1.5" fill="#636D85"/>
+  </g>
+
+  <!-- logo mark, top-left, matches Navbar/Footer -->
+  <text x="80" y="110" font-family="DejaVu Sans" font-size="30" font-weight="700" fill="#E7E9EE">
+    <tspan fill="#5B8CFF" font-family="DejaVu Sans Mono">&lt;</tspan>Aathi<tspan fill="#5B8CFF" font-family="DejaVu Sans Mono">/&gt;</tspan>
+  </text>
+
+  <!-- eyebrow, JSON key-value style, matches Hero -->
+  <text x="80" y="250" font-family="DejaVu Sans Mono" font-size="24" fill="#8B93A5">role: <tspan fill="#5B8CFF">"Java Full Stack Developer"</tspan></text>
+
+  <!-- headline -->
+  <text x="80" y="330" font-family="DejaVu Sans" font-size="64" font-weight="700" fill="#E7E9EE">Hi, I&#8217;m <tspan fill="#5B8CFF">Aathi</tspan></text>
+  <text x="80" y="405" font-family="DejaVu Sans" font-size="64" font-weight="700" fill="#E7E9EE">I build backend</text>
+  <text x="80" y="480" font-family="DejaVu Sans" font-size="64" font-weight="700" fill="#E7E9EE">systems that scale.</text>
+
+  <!-- tech tag pills, echoing SkillBadge -->
+  <g font-family="DejaVu Sans Mono" font-size="20" fill="#E7E9EE">
+    <rect x="80" y="530" width="90" height="44" rx="22" fill="none" stroke="#636D85" stroke-width="2"/>
+    <text x="102" y="558">Java</text>
+
+    <rect x="188" y="530" width="168" height="44" rx="22" fill="none" stroke="#636D85" stroke-width="2"/>
+    <text x="210" y="558">Spring Boot</text>
+
+    <rect x="374" y="530" width="98" height="44" rx="22" fill="none" stroke="#636D85" stroke-width="2"/>
+    <text x="396" y="558">React</text>
+  </g>
+</svg>
