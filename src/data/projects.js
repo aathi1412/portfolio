@@ -39,6 +39,31 @@ export const projects = [
     live: ''
   },
   {
+    title: 'AI Chatbot',
+    description:
+        'A full-stack AI chatbot built with Spring Boot and React that automatically routes user prompts to text or image generation models using LLM-based intent detection.',
+    features: [
+        'Automatic Intent Detection',
+        'AI Text Generation',
+        'AI Image Generation',
+        'Message History (localStorage)',
+        'REST API Integration',
+        'Centralized Error Handling'
+    ],
+    tech: [
+        'Java',
+        'Spring Boot',
+        'React',
+        'Vite',
+        'Hugging Face Router API',
+        'Cloudflare Workers AI'
+    ],
+    githubUrl: 'https://github.com/aathi1412/chatbot-project',
+    featured: false,
+    status: 'completed',
+    live: ''
+  },
+  {
     title: 'Bus Reservation System',
     description:
         'A Java console application for managing bus bookings with JDBC and MySQL. Supports passenger reservations, ticket cancellation, and real-time seat availability.',
@@ -74,29 +99,4 @@ export const projects = [
     status: 'completed',
     live: 'https://zoro-weather-dashboard.netlify.app/'
   },
-  {
-    title: 'AI Chatbot',
-    description:
-        'A full-stack AI chatbot built with Spring Boot and React that automatically routes user prompts to text or image generation models using LLM-based intent detection.',
-    features: [
-        'Automatic Intent Detection',
-        'AI Text Generation',
-        'AI Image Generation',
-        'Message History (localStorage)',
-        'REST API Integration',
-        'Centralized Error Handling'
-    ],
-    tech: [
-        'Java',
-        'Spring Boot',
-        'React',
-        'Vite',
-        'Hugging Face Router API',
-        'Cloudflare Workers AI'
-    ],
-    githubUrl: 'https://github.com/aathi1412/chatbot-project',
-    featured: false,
-    status: 'completed',
-    live: ''
-  }
 ];
