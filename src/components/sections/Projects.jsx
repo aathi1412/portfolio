@@ -36,9 +36,6 @@ export default function Projects() {
                   delay={0.1 + (featured.length + index) * 0.1}
                   className="h-full"
                 >
-                  {/* h4, not h3 — these cards nest under the "More Projects"
-                      h3 label above, so they're one level deeper than the
-                      featured cards, which sit directly under the h2. */}
                   <ProjectCard project={project} titleLevel="h4" />
                 </Reveal>
               ))}

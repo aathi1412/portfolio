@@ -95,7 +95,7 @@ export const projects = [
         'Cloudflare Workers AI'
     ],
     githubUrl: 'https://github.com/aathi1412/chatbot-project',
-    featured: true,
+    featured: false,
     status: 'completed',
     live: ''
   }
