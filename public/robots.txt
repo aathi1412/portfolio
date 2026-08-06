@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aathi-portfolio.example.com/sitemap.xml
+Sitemap: https://aathi-dev.netlify.com/sitemap.xml
