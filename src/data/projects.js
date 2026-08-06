@@ -17,7 +17,7 @@ export const projects = [
       'Database Versioning & Migrations'
     ],
     tech: ['Spring Boot', 'Spring Security', 'JWT', 'MySQL', 'Flyway'],
-    githubUrl: 'https://github.com/aathi1412',
+    githubUrl: 'https://github.com/aathi1412/authentication-system',
     featured: true,
     status: 'In Progress',
     live: ''
@@ -35,7 +35,7 @@ export const projects = [
       'Database Versioning & Migrations',
     ],
     tech: ['Spring Boot', 'MySQL', 'Docker', 'Flyway'],
-    githubUrl: 'https://github.com/aathi1412',
+    githubUrl: 'https://github.com/aathi1412/ecommerce-API',
     featured: true,
     status: 'In Progress',
     live: ''
@@ -71,20 +71,34 @@ export const projects = [
         'Live Weather Data'
     ],
     tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeather API'],
-    githubUrl: 'https://github.com/aathi1412',
+    githubUrl: 'https://github.com/aathi1412/Weather-Dashboard',
     featured: false,
     status: 'completed',
     live: 'https://zoro-weather-dashboard.netlify.app/'
   },
   {
-    title: 'Todo Application',
+    title: 'AI Chatbot',
     description:
-      'A todo app built with React, using local storage to persist tasks entirely client-side — no backend required.',
-    features: [],
-    tech: ['React', 'Local Storage'],
-    githubUrl: 'https://github.com/aathi1412',
-    featured: false,
+        'A full-stack AI chatbot built with Spring Boot and React that automatically routes user prompts to text or image generation models using LLM-based intent detection.',
+    features: [
+        'Automatic Intent Detection',
+        'AI Text Generation',
+        'AI Image Generation',
+        'Message History (localStorage)',
+        'REST API Integration',
+        'Centralized Error Handling'
+    ],
+    tech: [
+        'Java',
+        'Spring Boot',
+        'React',
+        'Vite',
+        'Hugging Face Router API',
+        'Cloudflare Workers AI'
+    ],
+    githubUrl: 'https://github.com/aathi1412/chatbot-project',
+    featured: true,
     status: 'completed',
     live: ''
-  },
+  }
 ];
