@@ -1,6 +1,4 @@
-// All GitHub links currently point at the profile root, since no per-repo
-// URLs were provided. Swap `githubUrl` on each entry to the actual repo link
-// once those exist.
+
 export const projects = [
   {
     title: 'JWT Authentication System',

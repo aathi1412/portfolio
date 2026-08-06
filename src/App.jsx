@@ -11,10 +11,6 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <main> landmark — was missing. Screen reader users navigate by
-          landmark region (header/main/footer/nav); without it, everything
-          between Navbar and Footer was unreachable as a single jump-to
-          target. */}
       <main>
         <Routes>
           <Route

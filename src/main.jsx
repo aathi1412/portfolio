@@ -3,10 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext.jsx'
 
-// Self-hosted fonts (swapped from the Google Fonts CDN — see index.html and
-// the README for why). latin + latin-ext subsets only — this content is
-// English text, so the full multi-script files (cyrillic, greek, vietnamese)
-// would just be dead CSS weight for declarations that never match.
 import '@fontsource/space-grotesk/latin-400.css'
 import '@fontsource/space-grotesk/latin-500.css'
 import '@fontsource/space-grotesk/latin-600.css'

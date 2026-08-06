@@ -1,4 +1,4 @@
-// Skills grouped for scannability rather than one flat wall of pills.
+
 export const skillGroups = [
   {
     label: 'Backend',
