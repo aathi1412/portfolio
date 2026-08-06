@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body bg-background-light text-foreground-light dark:bg-background-dark dark:text-foreground-dark transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  ::selection {
+    @apply bg-accent/20;
+  }
+
+  /* Custom focus ring — :focus-visible only (keyboard/programmatic focus),
+     never on mouse click. Browsers already draw a default outline via
+     Tailwind's preflight, but this keeps it on-brand and reliably visible
+     against both the light and dark backgrounds, satisfying WCAG 2.4.7. */
+  a:focus-visible,
+  button:focus-visible {
+    @apply rounded-sm outline-none ring-2 ring-accent ring-offset-2 ring-offset-background-light dark:ring-offset-background-dark;
+  }
+}
