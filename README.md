@@ -1,6 +1,6 @@
 # Aathi — Portfolio
 
-A personal developer portfolio for **Aathithyan**, a Java Full Stack Developer. Built as a single-page React app with a Spring Boot/Java-flavored aesthetic, smooth scroll-based navigation, and a fully accessible light/dark theme.
+A personal developer portfolio for **Aathithyan**, a Full Stack Developer. Built as a single-page React app with MERN Stack, Spring Boot/Java-flavored aesthetic, smooth scroll-based navigation, and a fully accessible light/dark theme.
 
 **Live site:** [aathi-dev.netlify.app](https://aathi-dev.netlify.app/)
 
