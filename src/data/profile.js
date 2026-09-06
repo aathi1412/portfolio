@@ -1,11 +1,11 @@
 // Profile data. Scoped to exactly what's been built so far.
 export const profile = {
   name: 'Aathithyan',
-  title: 'Java Full Stack Developer',
+  title: 'Full Stack Developer',
   heroTagline:
-    'From responsive React frontends to secure Java and Spring Boot backends, I develop reliable, end-to-end web applications.',
+    "From responsive React frontends to secure Java, Spring Boot, Node.js, and Express.js backends, I develop reliable, end-to-end web applications.",
   about:
-    "I'm a Computer Science graduate with a focus on backend development and building scalable web applications. My primary expertise is Java and Spring Boot, and I also build modern frontend applications with React — so I can take a project from a REST API all the way to the interface on top of it.",
+    "I'm a Computer Science graduate focused on backend development and building scalable web applications. My primary expertise is Java and Spring Boot, with additional experience in Node.js and Express.js. I also build modern frontend applications with React, allowing me to develop complete applications from secure REST APIs to responsive user interfaces.",
   education: 'Bachelor of Engineering in Computer Science',
   email: 'aathithirunav@gmail.com',
   github: 'https://github.com/aathi1412',
